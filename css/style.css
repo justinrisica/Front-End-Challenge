@@ -1,0 +1,146 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+  width: 375px;
+  height: 667px;
+}
+
+#inputContainer {
+  width: 100%;
+  padding-left: 12%;
+  margin: 0 auto;
+  position: inherit;
+  padding-top: 20px;
+  line-height: 2.3em;
+}
+
+input {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 280px;
+  position: inherit;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: #D8D8D8;
+  border-radius: 6px;
+  height: 28px;
+}
+
+input::placeholder {
+  padding: 2%;
+}
+
+#fromInput {
+  background-image: url(/images/ls-icon.png), url(/images/x-glyph.png);
+  background-repeat: no-repeat;
+  background-position: 90%, 98%;
+}
+
+#toInput {
+  background-image: url(/images/x-glyph.png);
+  background-repeat: no-repeat;
+  background-position: 98%;
+}
+
+#navTitle {
+  display:inline;
+  position: relative;
+  text-align: center;
+  padding-top: 11%;
+  padding-left: 40%;
+}
+
+#chevron {
+  float: left;
+  display: inline;
+  padding-right: 5px;
+}
+
+#dashboard {
+  padding-bottom: px;
+  display: inline;
+}
+
+#subtitle {
+  font-size: 14px;
+  text-align: center;
+  display: inline;
+  padding-left: 5%;
+}
+
+#navBar {
+  width: 375px;
+  height: 88px;
+  margin: 0 auto;
+  background-image: url(/images/status-bar.png);
+  background-position: center top 5px;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #007AFF;
+  color: #FFFFFF;
+  line-height: 1.3em;
+  display: inline-block;
+  position: inherit;
+}
+
+.bus {
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.arrivingNow {
+  color: #FF3A3A;
+  font-weight: bold;
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}
+
+.arrivalTime {
+  font-weight: bold;
+  float: right;
+  padding-right: 10px;
+}
+
+.direction {
+  font-size: 14px;
+  font-style: italic;
+  text-transform: capitalize;
+  display: inline;
+  padding-left: 10px;
+}
+
+.schedule {
+  font-size: 14px;
+  display: inline;
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.contentBox {
+  height: 80px;
+  width: 100%;
+  padding-top: 20px;
+  line-height: 1.3em;
+  border-bottom: 1px solid;
+  border-color: #979797;
+}
+
+.busData {
+  width: 375px;
+  height: 667px;
+  position: inherit;
+  margin: 0 auto;
+}
